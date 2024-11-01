@@ -12,7 +12,7 @@ services:
   orderUrl:
    http://OrderService/order/api/v1/save
   MyUrl:
-   thisiscomingfromGitUrl
+   thisiscomingfromGitUrl-V2
 
 management:
   endpoint:
