@@ -13,3 +13,15 @@ Microservices:
 		order-service:
 			urls:
 				url: http://PaymentService/paymentControl/api/v1/doPayment
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health
+  health:
+    circuitbreakers:
+      enabled: true
