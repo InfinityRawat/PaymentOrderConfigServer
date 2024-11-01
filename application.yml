@@ -6,12 +6,11 @@ eureka:
     hostname: localhost
     
 services:
-    payment-service:
-      urls:
-        url: http://PaymentService/paymentControl/api/v1/doPayment
-    order-service:
-      urls:
-        url: http://PaymentService/paymentControl/api/v1/doPayment
+ urls:
+  paymentUrl:
+   http://PaymentService/paymentControl/api/v1/doPayment
+  orderUrl:
+   http://OrderService/order/api/v1/save
 
 management:
   endpoint:
