@@ -4,7 +4,7 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
-		
+    
 services:
     payment-service:
       urls:
