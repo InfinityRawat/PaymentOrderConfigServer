@@ -11,6 +11,8 @@ services:
    http://PaymentService/paymentControl/api/v1/doPayment
   orderUrl:
    http://OrderService/order/api/v1/save
+  MyUrl:
+   thisiscomingfromGitUrl
 
 management:
   endpoint:
@@ -23,3 +25,4 @@ management:
   health:
     circuitbreakers:
       enabled: true
+
