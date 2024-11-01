@@ -5,14 +5,13 @@ eureka:
   instance:
     hostname: localhost
 		
-Microservices:
-	services:
-		payment-service:
-			urls:
-				url: http://PaymentService/paymentControl/api/v1/doPayment
-		order-service:
-			urls:
-				url: http://PaymentService/paymentControl/api/v1/doPayment
+services:
+    payment-service:
+      urls:
+        url: http://PaymentService/paymentControl/api/v1/doPayment
+    order-service:
+      urls:
+        url: http://PaymentService/paymentControl/api/v1/doPayment
 
 management:
   endpoint:
