@@ -1,0 +1,15 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: localhost
+		
+Microservices:
+	services:
+		payment-service:
+			urls:
+				url: http://PaymentService/paymentControl/api/v1/doPayment
+		order-service:
+			urls:
+				url: http://PaymentService/paymentControl/api/v1/doPayment
