@@ -1,0 +1,2 @@
+# PaymentOrderConfigServer
+for centralized configuration 
